@@ -33,7 +33,7 @@ targets.forEach(target => {
     if(enable) {
         
         // creating reg to disable some keys
-       // let reg = RegExp('^(alpha|shift|hype|OK|cos|tan)', 'g');
+       let reg = RegExp('^(alpha|shift|hype|OK)', 'g');
 
         // if CLR is pressed the clear the screen 
         if(tempText.localeCompare("CLR") == 0) {
@@ -48,7 +48,7 @@ targets.forEach(target => {
         }
 
         // if reg matches then return   
-       // if(reg.test(tempText)) return;
+       if(reg.test(tempText)) {return;};
         
         // display content
         contentText += tempText;
