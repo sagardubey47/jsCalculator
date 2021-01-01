@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="head">
+                <div class="brand-name">
+                    <h2>CASIO</h2>
+                    <p>fx-991ES PLUS</p>
+                </div>
+                <div class="battery">
+                    <div class="cell-area"></div>
+                    <p>TWO WAY POWER</p>
+                </div>
+                  
+            </div>
+            <div class="screen">
+                 <div id="display" class="display-toggle"> </div>
+            </div>
+            <div class="button-container" ondragstart="return false" onselectstart="return false">
+
+                <div class="button func shift" data-value="">shift</div>
+                <div class="button func alpha" data-value="">alpha</div>
+                <div class="button func OK" data-value="OK">OK</div>
+                <div class="button clr" data-value="CLR">CLR</div>
+                <div id="on" class="button off" data-value="ON">ON</div>
+                <div class="button func hype" data-value="">hype</div>
+                <div class="button func sine" data-value="Math.sin">sin</div>
+                <div class="button func cos" data-value="Math.cos">cos</div>
+                <div class="button func tan" data-value="Math.tan">tan</div>
+                
+                <div class="button numerical seven" data-value="7">7</div>
+                <div class="button numerical eight" data-value="8">8</div>
+                <div class="button numerical nine" data-value="9">9</div>
+                <div class="button operators bracesO" data-value="(">(</div>
+                <div class="button operators bracesC" data-value=")">)</div>
+
+                <div class="button numerical four" data-value="4">4</div>
+                <div class="button numerical five" data-value="5">5</div>
+                <div class="button numerical six" data-value="6">6</div>
+                <div class="button operators multiply" data-value="*">x</div>
+                <div class="button operators divide" data-value="/">/</div>
+
+                <div class="button numerical one" data-value="1">1</div>
+                <div class="button numerical two" data-value="2">2</div>
+                <div class="button numerical three" data-value="3">3</div>
+                <div class="button operators add" data-value="+">+</div>
+                <div class="button operators sub" data-value="-">-</div>
+
+                <div class="button numerical zero" data-value="0">0</div>
+                <div class="button numerical decimal" data-value=".">.</div>
+                <div class="button numerical ten-x" data-value="*10">x10<sup style="font-style: italic;">x</sup></div>
+                <div class="button bottom ans" data-value="ans">ans</div>
+                <div class="button bottom equal" data-value="=">=</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

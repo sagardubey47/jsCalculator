@@ -1,0 +1,201 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/279547.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    /* justify-content: center; */
+    margin-left: 10%;
+    align-content: center;
+    grid-template-columns: minmax(330px,28%);
+    grid-template-rows: minmax(400px, 85%);
+}
+
+main {
+    border: solid 3px rgb(161, 154, 154);
+    display: grid;
+    grid-template-rows: 3fr 4fr 13fr;
+    background-color: #dfe2e4;
+    border-radius: 20px 20px 30px 30px;
+    box-shadow: 3px 3px 1px rgb(151, 151, 151);
+    transform: rotate(-8deg);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-name > h2 {
+  margin-bottom: 10px;
+}
+
+.brand-name {
+    padding: 10px;
+}
+
+.battery {
+    margin-right: 20px;
+    font-size: 12px;
+    align-self: center;
+}
+
+.cell-area {
+   width: 150px;
+   height: 35px;
+   background-color: rgb(71, 47, 47);
+   margin-bottom: 10px;
+   border-radius: 8px ;
+}
+
+.battery p {
+    margin-left: 45px;
+}
+
+.display-toggle {
+    height: 75px;
+    max-width: 300px;
+    overflow: hidden;
+    margin: 10px auto;
+    background-color:#315959 ;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.button-container {
+     
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    color: black;
+    grid-template-areas: "shift alpha ok clr on"
+                         "hyp sine ok cos tan"
+                         "seven eight nine bracesO bracesC"
+                         "four five six mult divide"
+                         "one two three addition substract"
+                         "z deci ten-x ans equal"   ;
+    grid-gap: 5px;                     
+}
+
+.button {
+    font-weight: 550;
+   background-color: rgb(16, 49, 49);
+   align-self: center;
+   padding: 10px;
+   background-color: #f4f4f5;
+   border-radius: 8px 8px 15px 15px;
+   -webkit-box-shadow: 0px 5px 2px 0px rgba(50, 50, 50, 1);
+   -moz-box-shadow: 0px 5px 2px 0px rgba(50, 50, 50, 1);
+   box-shadow: 0px 5px 2px 0px rgba(50, 50, 50, 1);
+}
+
+.OK {
+    grid-area: ok;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.off {
+     background-color: #a56161;
+    
+}
+
+
+
+
+/* 
+.func {
+    background-color: plum;
+} */
+/* .one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+} */
+
+/* .zero {
+    grid-area: z;
+}
+
+.decimal {
+    grid-area: deci;
+}
+
+.ten-x {
+    grid-area: ten-x;
+} */
+
+/* .add {
+    grid-area: addition;
+}
+
+.sub {
+    grid-area: substract;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.multiply {
+    grid-area: mult;
+}
+
+.AC {
+   grid-area: AC;
+}
+
+.DEL {
+   grid-area: DEL;
+}
+
+.ans {
+   grid-area: ans;
+}
+
+.equal {
+   grid-area: equal;
+} */
